@@ -57,10 +57,6 @@ Documentation = "https://django-cruder.readthedocs.io/"
 Repository = "https://github.com/massyn/django-cruder"
 "Bug Tracker" = "https://github.com/massyn/django-cruder/issues"
 
-[tool.setuptools]
-packages = ["cruder"]
-include-package-data = true
-
 [tool.setuptools.packages.find]
 where = ["."]
 
