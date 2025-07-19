@@ -1,0 +1,17 @@
+{% extends 'cruder/base.html' %}
+
+{% block title %}{{ action }} {{ model_name|title }} - CRUD Module{% endblock %}
+
+{% block cruder_content %}
+<div class="row">
+    <div class="col-12">
+        <h1 class="mb-4">{{ action }} {{ model_name|title }}</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+        {{ form_html|safe }}
+    </div>
+</div>
+{% endblock %}

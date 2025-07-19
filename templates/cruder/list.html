@@ -1,0 +1,7 @@
+{% extends 'cruder/base.html' %}
+
+{% block title %}{{ model_name_plural|title }} - CRUD Module{% endblock %}
+
+{% block cruder_content %}
+{{ list_html|safe }}
+{% endblock %}

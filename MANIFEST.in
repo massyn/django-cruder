@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include cruder/templates *.html
+recursive-include cruder/static *.css *.js *.png *.jpg *.gif
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
